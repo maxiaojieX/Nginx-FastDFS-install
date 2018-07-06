@@ -8,7 +8,7 @@ Nginx是一个http服务可以独立提供http服务。可以做网页静态服�
 #### 应用场景
 FastDFS的HTTP服务较为简单，无法提供负载均衡等高性能的服务。
 
-#### 安装教程 摘自(https://www.cnblogs.com/jym-sunshine/p/6397470.html)
+#### 安装教程 
 befor{
 	
 	yum -y install gcc automake autoconf libtool make
@@ -292,3 +292,4 @@ upload file fail, error no: 2, error info: No such file or directory
 
 /usr/bin/fdfs_test /etc/fdfs/client.conf upload /usr/bin/test.txt
 成功啦！！！ 返回文件信息及上传后的文件 HTTP 地址，你打开浏览器访问一下试试
+摘自(https://www.cnblogs.com/jym-sunshine/p/6397470.html)
